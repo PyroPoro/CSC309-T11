@@ -148,7 +148,7 @@ export const AuthProvider = ({ children }) => {
             }
 
             // Registration successful, navigate to login/home
-            navigate("/");
+            navigate("/success");
 
         } catch (error) {
             console.error("Registration error:", error);
