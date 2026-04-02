@@ -118,6 +118,7 @@ export const AuthProvider = ({ children }) => {
             }
 
         } catch (error) {
+            console.log("VITE_BACKEND_URL: " + BACKEND_URL);
             console.error("Login error:", error);
             return "A network error occurred during login";
         }

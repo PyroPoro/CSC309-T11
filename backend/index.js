@@ -8,6 +8,7 @@ const app = express();
 
 // TODO: complete me (CORS)
 const FRONTEND_URL = process.env.FRONTEND_URL || "http://localhost:5173";
+console.log("frontend url: " + FRONTEND_URL);
 
 app.use(cors({
     origin: FRONTEND_URL,
